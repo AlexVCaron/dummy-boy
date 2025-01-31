@@ -1,0 +1,14 @@
+name: Deploy pages
+
+on:
+    workflow_dispatch:
+
+permissions:
+    contents: read
+    pages: write
+    id-token: write
+
+jobs:
+    deploy:
+        uses: AlexVCaron/nf-neuro-documentation/.github/workflows/deploy.yml@main
+        secrets: inherit

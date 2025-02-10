@@ -10,5 +10,5 @@ permissions:
 
 jobs:
     deploy:
-        uses: AlexVCaron/nf-neuro-documentation/.github/workflows/deploy.yml@main
+        uses: AlexVCaron/nf-neuro-documentation/.github/workflows/deploy.yml@temp/dummy-boy
         secrets: inherit
